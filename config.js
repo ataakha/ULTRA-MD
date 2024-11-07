@@ -6,13 +6,13 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '923444844060';
+const defaultOwner = '923346690239';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
 const ownervb = process.env.OWNERS || defaultOwner;
 
-const ownerlist = ownervb.split(';');
+const ownerlist = ownervb.split('.');
 
 global.owner = [];
 for (let i = 0; i < ownerlist.length; i++) {
@@ -20,11 +20,11 @@ for (let i = 0; i < ownerlist.length; i++) {
 }
 //
 global.botname = process.env.BOTNAME || 'ULTRA-MD';
-global.botNumber = '923051391007' //replace your bot number here
+global.botNumber = '923346690239' //replace your bot number here
 
 global.mods = []
 global.prems = []
-global.allowed = ['923444844060', '923051391007']
+global.allowed = ['923346690239', '923346690239']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -45,7 +45,7 @@ global.canal = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
 
 
 global.APIs = {
-  // API Prefix
+  // API Prefix '.'
   // name: 'https://website'
   xteam: 'https://api.xteam.xyz',
   dzx: 'https://api.dhamzxploit.my.id',
@@ -71,8 +71,8 @@ global.APIKeys = {
 }
 
 // Sticker WM
-global.premium = 'true'
-global.packname = 'GLOBAL-MD'
+global.premium = 'false'
+global.packname = 'malik'
 global.author = 'GlobalTechInfo'
 global.menuvid = 'https://i.imgur.com/2U2K9YA.mp4'
 global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/global.techinfo'
